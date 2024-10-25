@@ -87,7 +87,7 @@ with the ``text_sensor.nextion.publish`` action.
           publish_state: true
           send_to_nextion: true
 
-Configuration options:
+Configuration variables:
 
 - **id** (**Required**, :ref:`config-id`): The ID of the Nextion text sensor.
 - **state** (**Required**, string, :ref:`templatable <config-templatable>`): The string to publish.
